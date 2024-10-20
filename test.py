@@ -1,6 +1,4 @@
 import streamlit as st
 
-col1, col2, col3 = st.columns(3)
-col1.write("col1")
-col2.write("col2")
-col3.write("col3")
+# Display a link in Streamlit
+st.markdown("[Click here to visit Google](https://www.google.com)")
